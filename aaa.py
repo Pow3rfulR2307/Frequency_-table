@@ -68,7 +68,7 @@ def criar_tabela(dados):
 if __name__ == "__main__":
 
     dados = []
-    with open('/home/ben_10/Documents/python projects/trabalho_frequencia/forestfires.csv') as arquivo: 
+    with open('/path/to/csvfile.csv') as arquivo: 
         
         header = next(arquivo) 
         leitor = csv.reader(arquivo)
